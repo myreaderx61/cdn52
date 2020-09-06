@@ -1,0 +1,1324 @@
+<!DOCTYPE html>
+<html lang="en-US">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1, user-scalable=no" />
+		<link rel="pingback" href="https://jsremoteconf.com/xmlrpc.php" />
+		<title>JavaScript Remote Conference 2020 &#8211; The best online conference experience for JavaScript Developers</title>
+<link rel='dns-prefetch' href='//www.google.com' />
+<link rel='dns-prefetch' href='//platform.twitter.com' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="JavaScript Remote Conference 2020 &raquo; Feed" href="https://jsremoteconf.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="JavaScript Remote Conference 2020 &raquo; Comments Feed" href="https://jsremoteconf.com/comments/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/jsremoteconf.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.4.2"}};
+			/*! This file is auto-generated */
+			!function(e,a,t){var r,n,o,i,p=a.createElement("canvas"),s=p.getContext&&p.getContext("2d");function c(e,t){var a=String.fromCharCode;s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,e),0,0);var r=p.toDataURL();return s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,t),0,0),r===p.toDataURL()}function l(e){if(!s||!s.fillText)return!1;switch(s.textBaseline="top",s.font="600 32px Arial",e){case"flag":return!c([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])&&(!c([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!c([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]));case"emoji":return!c([55357,56424,55356,57342,8205,55358,56605,8205,55357,56424,55356,57340],[55357,56424,55356,57342,8203,55358,56605,8203,55357,56424,55356,57340])}return!1}function d(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(i=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},o=0;o<i.length;o++)t.supports[i[o]]=l(i[o]),t.supports.everything=t.supports.everything&&t.supports[i[o]],"flag"!==i[o]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[i[o]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(r=t.source||{}).concatemoji?d(r.concatemoji):r.wpemoji&&r.twemoji&&(d(r.twemoji),d(r.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='mp-theme-css'  href='https://jsremoteconf.com/wp-content/plugins/memberpress/css/ui/theme.css?ver=1.8.15' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-block-library-css'  href='https://jsremoteconf.com/wp-includes/css/dist/block-library/style.min.css?ver=5.4.2' type='text/css' media='all' />
+<link rel='stylesheet' id='contact-form-7-css'  href='https://jsremoteconf.com/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.2' type='text/css' media='all' />
+<link rel='stylesheet' id='summit-fonts-css'  href='//fonts.googleapis.com/css?family=Open+Sans%3A300%2C400%2C700%2C400italic%2C700italic&#038;subset=latin' type='text/css' media='all' />
+<link rel='stylesheet' id='bootstrap-css'  href='https://jsremoteconf.com/wp-content/themes/summit/css/bootstrap.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-css'  href='https://jsremoteconf.com/wp-content/themes/summit/css/font-awesome.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='flexslider-css'  href='https://jsremoteconf.com/wp-content/themes/summit/css/flexslider.css' type='text/css' media='all' />
+<link rel='stylesheet' id='magnific_popup_style-css'  href='https://jsremoteconf.com/wp-content/themes/summit/css/magnific-popup.css' type='text/css' media='all' />
+<link rel='stylesheet' id='owl-carousel-css'  href='https://jsremoteconf.com/wp-content/themes/summit/css/owl.carousel.css' type='text/css' media='all' />
+<link rel='stylesheet' id='highlightjs-css'  href='https://jsremoteconf.com/wp-content/themes/summit/css/hl-styles/monokai_sublime.css' type='text/css' media='all' />
+<link rel='stylesheet' id='summit-main-style-css'  href='https://jsremoteconf.com/wp-content/themes/summit/css/screen.css' type='text/css' media='all' />
+<link rel='stylesheet' id='summit-theme-style-css'  href='https://jsremoteconf.com/wp-content/themes/summit/style.css' type='text/css' media='all' />
+<script type='text/javascript' src='https://jsremoteconf.com/wp-includes/js/jquery/jquery.js?ver=1.12.4-wp'></script>
+<script type='text/javascript' src='https://jsremoteconf.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<link rel='https://api.w.org/' href='https://jsremoteconf.com/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://jsremoteconf.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://jsremoteconf.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 5.4.2" />
+<link rel="canonical" href="https://jsremoteconf.com/" />
+<link rel='shortlink' href='https://jsremoteconf.com/' />
+<link rel="alternate" type="application/json+oembed" href="https://jsremoteconf.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fjsremoteconf.com%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://jsremoteconf.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fjsremoteconf.com%2F&#038;format=xml" />
+<style type="text/css">a, a:hover, a:focus{color: #262627;}.btn-default,input[type="submit"]{background:#fe4918;}.btn-default:hover,input[type="submit"]:hover,.btn-default:focus,input[type="submit"]:focus,.btn-default:active,input[type="submit"]:active,.btn-default:active:focus,input[type="submit"]:active:focus{background:#e44115;}input[type="text"]:focus,input[type="email"]:focus,input[type="search"]:focus,input[type="url"]:focus,input[type="password"]:focus,textarea:focus,.form-control:focus{border: 1px solid #fe4918;}::-moz-selection{background: #262627;}::selection{background: #262627;}.overlay:before{background-image: -webkit-linear-gradient(30deg, #262627 30%, #fe4918 70%);background-image: -moz-linear-gradient(30deg, #262627 30%, #fe4918 70%);background-image: -ms-linear-gradient(30deg, #262627 30%, #fe4918 70%);background-image: -o-linear-gradient(30deg, #262627 30%, #fe4918 70%);background-image: linear-gradient(30deg, #262627 30%, #fe4918 70%);}.mejs-controls .mejs-time-rail .mejs-time-current{background:#262627 !important;}.preloader-overlay .loader-bar:not(:required){background:#fe4918;}.navbar{background-image: -webkit-linear-gradient(30deg, #262627 30%, #fe4918 70%);background-image: -moz-linear-gradient(30deg, #262627 30%, #fe4918 70%);background-image: -ms-linear-gradient(30deg, #262627 30%, #fe4918 70%);background-image: -o-linear-gradient(30deg, #262627 30%, #fe4918 70%);background-image: linear-gradient(30deg, #262627 30%, #fe4918 70%);}.navbar-default .navbar-nav li > ul li:hover,.navbar-default .navbar-nav li > ul li:focus{background:#262627;}.breadcrumb-wrap .breadcrumbs a:hover,.breadcrumb-wrap .breadcrumbs a:focus{color:#262627;}.section-wrap .title-separetor{background:#262627;}.section-wrap .title-separetor:before,.section-wrap .title-separetor:after{background:#262627;}.speaker .speaker-image-wrap .speaker-social li a i:hover,.speaker .speaker-image-wrap .speaker-social li a i:focus{color:#262627;}.speaker .speaker-info-wrap .name a:hover{color:#262627;}.schedule-tabbed .nav-tabs li.active a .day,.schedule-tabbed .nav-tabs li.active a .date{color:#262627;}.schedule-tabbed .tab-content .session-single .time{background:#fe4918;}.schedule-tabbed .tab-content .session-single .session-details .speakers a:hover,.schedule-tabbed .tab-content .session-single .session-details .speakers a:focus {color:#262627;}.pricing-wrap.featured{background-image: -webkit-linear-gradient(30deg, rgba(38, 38, 39, 0.85) 30%, rgba(254, 73, 24, 0.85) 70%);background-image: -moz-linear-gradient(30deg, rgba(38, 38, 39, 0.85) 30%, rgba(254, 73, 24, 0.85) 70%);background-image: -ms-linear-gradient(30deg, rgba(38, 38, 39, 0.85) 30%, rgba(254, 73, 24, 0.85) 70%);background-image: -o-linear-gradient(30deg, rgba(38, 38, 39, 0.85) 30%, rgba(254, 73, 24, 0.85) 70%);background-image: linear-gradient(30deg, rgba(38, 38, 39, 0.85) 30%, rgba(254, 73, 24, 0.85) 70%);}.pricing-wrap .pricing-head{background:#262627;}.post-wrap .post-content-wrap .title a:hover,.post-wrap .post-content-wrap .title a:focus{color:#262627;}.post-wrap .post-content-wrap .post-meta span a:hover,.post-wrap .post-content-wrap .post-meta span a:focus{color:#262627;}.post-wrap .post-content-wrap .tag-wrap a:hover,.post-wrap .post-content-wrap .tag-wrap a:focus{color:#262627;}.about-author .details .author a:hover{color:#262627;}.post-navigation .page-numbers li .page-numbers.current{background:#262627;}.post-navigation .page-numbers li .page-numbers.current:hover,.post-navigation .page-numbers li .page-numbers.current:focus{background:#262627;}.prev-next-wrap .post-inner a:hover,.prev-next-wrap .post-inner a:focus{color:#262627;}.prev-next-wrap .post-inner a:hover .title,.prev-next-wrap .post-inner a:focus .title{color:#262627;}.comment-container > ol li header .comment-details .commenter-name a:hover{color:#262627;}.comment-container > ol li header .comment-details .commenter-name a:hover{color:#262627;}.comment-container > ol li .comment-reply-link:hover,.comment-container > ol li .comment-reply-login:hover,.comment-container > ol li .comment-reply-link:focus,.comment-container > ol li .comment-reply-login:focus{color:#262627;}.comment-container > ol li .comment-edit-link:hover{color:#262627;}.ss-vertical .speaker-social li a:hover{color:#262627;}.widget ul li a:hover{color:#262627;}.widget ul li a:hover .post-count{background:#262627;border: 1px solid #262627;}.widget.widget_tag_cloud a:hover{background:#262627;border: 1px solid #262627;}.widget.widget_calendar table tbody a:hover,.widget.widget_calendar table tbody a:focus{background:#262627;}.widget.widget_calendar table tfoot td a:hover,.widget.widget_calendar table tfoot td a:focus{color:#262627;}.widget.widget_recent_comments ul li a:hover,.widget.widget_recent_comments ul li a:focus{color:#262627;}.main-footer a:hover,.main-footer a:focus{color:#262627;}.main-footer .footer-upper .widget ul li a:hover{color:#262627;}.main-footer .footer-upper .widget ul li a:hover .post-count{border: 1px solid #262627;}.main-footer .footer-upper .widget.widget_tag_cloud a:hover{border: 1px solid #262627;}.main-footer .footer-upper .widget.widget_calendar table tfoot td a:hover,.main-footer .footer-upper .widget.widget_calendar table tfoot td a:focus{color:#262627;}.main-footer input[type="text"]:focus,.main-footer input[type="email"]:focus,.main-footer input[type="search"]:focus,.main-footer input[type="url"]:focus,.main-footer input[type="password"]:focus,.main-footer textarea:focus,.main-footer .form-control:focus{border:1px solid #fe4918;}#back-to-top:hover i{background:#fe4918;}.error-code{color:#262627;}@media screen and (max-width: 767px){.navbar .navbar-nav li a:hover{background:#262627;}}</style><style type="text/css">.navbar{background-color:#262627;}.page-template-page-homepage .navbar.scrolled{background-color:#262627;}.navbar-default .navbar-nav li > ul{background:#262627;}@media screen and (max-width: 767px){.navbar .navbar-collapse{background:#262627;}}</style><style type="text/css">.account a {
+  color: blue;
+  text-decoration: underline;
+}</style><style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>	</head>
+        <body class="home page-template page-template-page-homepage page-template-page-homepage-php page page-id-7 has-fixed-navbar">
+        	<!-- section header start -->
+    <header class="main-header">
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-menu" aria-expanded="false" aria-controls="main-menu">
+                        <span class="sr-only"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <!-- start logo -->
+                                            <a class="navbar-brand image-logo" href="https://jsremoteconf.com/"><img src="http://jsremoteconf.com/wp-content/uploads/2020/05/jsremoteconf_logo.png" alt="JavaScript Remote Conference 2020"></a>
+                                        <!-- end logo -->
+                </div>
+                <div id="main-menu" class="navbar-collapse collapse">
+                    <ul id="menu-main-menu" class="nav navbar-nav navbar-right"><li id="menu-item-49" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-49"><a href="#schedule">Schedule</a></li>
+<li id="menu-item-50" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-50"><a href="#sponsors">Sponsors</a></li>
+<li id="menu-item-51" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-51"><a href="#speakers">Speakers</a></li>
+<li id="menu-item-54" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-54"><a href="#pricing">Pricing</a></li>
+<li id="menu-item-52" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-52"><a href="#testimonials">Testimonials</a></li>
+<li id="menu-item-53" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-53"><a href="#contact">Contact</a></li>
+<li id="menu-item-64" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-64"><a href="https://jsremoteconf.com/login/">Login</a></li>
+</ul>                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- section header end --><!-- section banner start -->
+    <section id="header"  class="section-wrap cover overlay summit-section-21">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 align-center">
+                                            <h1 class="welcome-message">JavaScript Remote Conference</h1>
+                                                            <div id="clock" class="clock-counter clearfix" data-datetime="2020/05/13 14:30">
+                    </div>
+                                                        </div>
+            </div>
+        </div>
+    </section>
+    <!-- section banner end -->
+<!-- section blog start -->
+<section   class="section-wrap summit-section-36">
+    <div class="container">
+    		        <div class="row">
+	            <div class="col-md-12 align-center section-head">
+	            		                	<h2 class="section-title">Don&#039;t Cancel Your Learning</h2>
+	                	<div class="title-separetor"></div>
+	                	                	                	<p class="section-description">So what if we can&#039;t meet in person?!</p>
+	                	            </div>
+	        </div>
+	            <div class="row">
+                            <div class="col-md-5 first-block">
+                                        <h2>Join Us Virtually</h2>
+                                                            <h4>Learn, Mingle, and Stay Safe</h4>
+                                                            <p>Angular Remote Conference is a fully online conference produced by the team that creates the Adventures in Angular and JavaScript Jabber podcasts. With the conference cancellations, we're concerned that our community won't have the opportunity to learn, grow, and mingle.</p>
+<p>We also want to continue to produce and support a podcast for the Angular developer community.</p>
+<p>Many of our community can't travel to or pay for tickets for conferences.</p>
+<p>This will be the premier online experience for Angular developers to stay current without the hassle of travel or the risk of contagion.</p>
+                                                        </div>
+                <div class="col-md-7 align-right pull-right">
+                                        <img src="http://jsremoteconf.com/wp-content/uploads/2020/05/workfromhome-web.jpg" class="responsive-image" alt="">
+                                    </div>
+                    </div>
+    </div>
+</section>
+<!-- section blog end -->
+<!-- section blog start -->
+<section id="#speak"  class="section-wrap summit-section-44 light-gray-bg">
+    <div class="container">
+    		        <div class="row">
+	            <div class="col-md-12 align-center section-head">
+	            		                	<h2 class="section-title">Do You Want to Speak?</h2>
+	                	<div class="title-separetor"></div>
+	                	                	            </div>
+	        </div>
+	            <div class="row">
+                            <div class="col-md-7 first-block align-left pull-left">
+                                        <img src="http://jsremoteconf.com/wp-content/uploads/2020/05/speaker_audience-web.jpg" class="responsive-image" alt="">
+                                    </div>
+                <div class="col-md-5">
+                                        <h2>Be a Speaker</h2>
+                                                                                <p>Would you like to join us and share your expertise? Click the button below and let us know who you are and what you'd like to speak on!</p>
+<p>CFP closes June 30, 2020</p>
+                                                            <a href="https://devchattv.typeform.com/to/ISMIAY" class="btn btn-default">
+                        Submit Your Talk                    </a>
+                                    </div>
+                    </div>
+    </div>
+</section>
+<!-- section blog end -->
+<!-- section schedule start -->
+<section id="schedule"  class="section-wrap overlay summit-section-24">
+    <div class="container">
+    		        <div class="row">
+	            <div class="col-md-12 align-center section-head">
+	            		                	<h2 class="section-title">Schedule</h2>
+	                	<div class="title-separetor"></div>
+	                	                	            </div>
+	        </div>
+	            <div class="row">
+                            <div class="col-md-12">
+                    <div class="schedule-tabbed">
+                        <ul class="nav nav-tabs" role="tablist">
+                                                                                    <li role="presentation" class="active"><a href="#schedule-1" aria-controls="schedule-1" role="tab" data-toggle="tab">
+                                <span class="day">Day One</span><span class="date">May 13, 2020</span></a>
+                            </li>
+                                                        <li role="presentation" class=""><a href="#schedule-2" aria-controls="schedule-1" role="tab" data-toggle="tab">
+                                <span class="day">Day Two</span><span class="date">May 14, 2020</span></a>
+                            </li>
+                                                        <li role="presentation" class=""><a href="#schedule-3" aria-controls="schedule-1" role="tab" data-toggle="tab">
+                                <span class="day">Day Three</span><span class="date">May 15, 2020</span></a>
+                            </li>
+                                                    </ul>
+                        <div class="tab-content">
+                                                        <div role="tabpanel" class="tab-pane fade active in" id="schedule-1">
+                                                                    <div class="session-single clearfix">
+                                        <div class="time-wrap">
+                                            <div class="time">
+                                                <i class="fa fa-clock-o"></i>
+                                                08:00 AM - 08:50 AM 
+                                            </div>
+                                        </div>
+                                        <div class="session-details">
+                                                                                            <h4 class="title">Aviate, Navigate and Communicate</h4>
+                                                                                                                                        <div class="speakers">
+                                                    <i class="fa fa-microphone"></i>
+                                                                                                        <a href="https://jsremoteconf.com/speaker/mark-hasara/">Mark Hasara</a>
+                                                                                            </div>
+                                                                                                                                </div>
+                                    </div>
+                                                                    <div class="session-single clearfix">
+                                        <div class="time-wrap">
+                                            <div class="time">
+                                                <i class="fa fa-clock-o"></i>
+                                                09:00 AM - 09:50 AM 
+                                            </div>
+                                        </div>
+                                        <div class="session-details">
+                                                                                            <h4 class="title">ESNext: Proposals to look forward to</h4>
+                                                                                                                                        <div class="speakers">
+                                                    <i class="fa fa-microphone"></i>
+                                                                                                        <a href="https://jsremoteconf.com/speaker/bramus-van-damme/">Bramus Van Damme</a>
+                                                                                            </div>
+                                                                                                                                </div>
+                                    </div>
+                                                                    <div class="session-single clearfix">
+                                        <div class="time-wrap">
+                                            <div class="time">
+                                                <i class="fa fa-clock-o"></i>
+                                                10:00 AM - 10:50 AM 
+                                            </div>
+                                        </div>
+                                        <div class="session-details">
+                                                                                            <h4 class="title">Static Sites and Serverless Functions - A Dynamic Combination</h4>
+                                                                                                                                        <div class="speakers">
+                                                    <i class="fa fa-microphone"></i>
+                                                                                                        <a href="https://jsremoteconf.com/speaker/james-q-quick/">James Q Quick</a>
+                                                                                            </div>
+                                                                                                                                </div>
+                                    </div>
+                                                                    <div class="session-single clearfix">
+                                        <div class="time-wrap">
+                                            <div class="time">
+                                                <i class="fa fa-clock-o"></i>
+                                                11:00 AM - 11:50 AM 
+                                            </div>
+                                        </div>
+                                        <div class="session-details">
+                                                                                            <h4 class="title">The Road to Reliable React Performance Monitoring</h4>
+                                                                                                                                        <div class="speakers">
+                                                    <i class="fa fa-microphone"></i>
+                                                                                                        <a href="https://jsremoteconf.com/speaker/adrien-trauth/">Adrien Trauth</a>
+                                                                                            </div>
+                                                                                                                                </div>
+                                    </div>
+                                                                    <div class="session-single clearfix">
+                                        <div class="time-wrap">
+                                            <div class="time">
+                                                <i class="fa fa-clock-o"></i>
+                                                12:30 PM - 01:20 PM 
+                                            </div>
+                                        </div>
+                                        <div class="session-details">
+                                                                                            <h4 class="title">Networking Hour</h4>
+                                                                                                                                                                            </div>
+                                    </div>
+                                                                    <div class="session-single clearfix">
+                                        <div class="time-wrap">
+                                            <div class="time">
+                                                <i class="fa fa-clock-o"></i>
+                                                01:30 PM - 02:20 PM 
+                                            </div>
+                                        </div>
+                                        <div class="session-details">
+                                                                                            <h4 class="title">Functional TypeScript</h4>
+                                                                                                                                        <div class="speakers">
+                                                    <i class="fa fa-microphone"></i>
+                                                                                                        <a href="https://jsremoteconf.com/speaker/zac-delventhal/">Zac Delventhal</a>
+                                                                                            </div>
+                                                                                                                                </div>
+                                    </div>
+                                                                    <div class="session-single clearfix">
+                                        <div class="time-wrap">
+                                            <div class="time">
+                                                <i class="fa fa-clock-o"></i>
+                                                02:30 PM - 03:20 PM 
+                                            </div>
+                                        </div>
+                                        <div class="session-details">
+                                                                                            <h4 class="title">Learning JavaScript by Doing JavaScript</h4>
+                                                                                                                                        <div class="speakers">
+                                                    <i class="fa fa-microphone"></i>
+                                                                                                        <a href="https://jsremoteconf.com/speaker/raymond-camden/">Raymond Camden</a>
+                                                                                            </div>
+                                                                                                                                </div>
+                                    </div>
+                                                                    <div class="session-single clearfix">
+                                        <div class="time-wrap">
+                                            <div class="time">
+                                                <i class="fa fa-clock-o"></i>
+                                                03:30 PM - 04:20 PM 
+                                            </div>
+                                        </div>
+                                        <div class="session-details">
+                                                                                            <h4 class="title">AI/ML with Tensorflow.js</h4>
+                                                                                                                                        <div class="speakers">
+                                                    <i class="fa fa-microphone"></i>
+                                                                                                        <a href="https://jsremoteconf.com/speaker/gant-laborde/">Gant Laborde</a>
+                                                                                            </div>
+                                                                                                                                </div>
+                                    </div>
+                                                                    <div class="session-single clearfix">
+                                        <div class="time-wrap">
+                                            <div class="time">
+                                                <i class="fa fa-clock-o"></i>
+                                                04:30 PM - 05:20 PM 
+                                            </div>
+                                        </div>
+                                        <div class="session-details">
+                                                                                            <h4 class="title">Performance Tips for Your React Native App</h4>
+                                                                                                                                        <div class="speakers">
+                                                    <i class="fa fa-microphone"></i>
+                                                                                                        <a href="https://jsremoteconf.com/speaker/tim-jung/">Tim Jung</a>
+                                                                                            </div>
+                                                                                                                                </div>
+                                    </div>
+                                                            </div>
+                                                    <div role="tabpanel" class="tab-pane fade " id="schedule-2">
+                                                                    <div class="session-single clearfix">
+                                        <div class="time-wrap">
+                                            <div class="time">
+                                                <i class="fa fa-clock-o"></i>
+                                                08:00 AM - 08:50 AM 
+                                            </div>
+                                        </div>
+                                        <div class="session-details">
+                                                                                            <h4 class="title">Supercharge your JavaScript with Web Assembly</h4>
+                                                                                                                                        <div class="speakers">
+                                                    <i class="fa fa-microphone"></i>
+                                                                                                        <a href="https://jsremoteconf.com/speaker/tamas-piros/">Tamas Piros</a>
+                                                                                            </div>
+                                                                                                                                </div>
+                                    </div>
+                                                                    <div class="session-single clearfix">
+                                        <div class="time-wrap">
+                                            <div class="time">
+                                                <i class="fa fa-clock-o"></i>
+                                                09:00 AM - 09:50 AM 
+                                            </div>
+                                        </div>
+                                        <div class="session-details">
+                                                                                            <h4 class="title">Writing accessible JavaScript</h4>
+                                                                                                                                        <div class="speakers">
+                                                    <i class="fa fa-microphone"></i>
+                                                                                                        <a href="https://jsremoteconf.com/speaker/anuradha-kumari/">Anuradha Kumari</a>
+                                                                                            </div>
+                                                                                                                                </div>
+                                    </div>
+                                                                    <div class="session-single clearfix">
+                                        <div class="time-wrap">
+                                            <div class="time">
+                                                <i class="fa fa-clock-o"></i>
+                                                10:00 AM - 10:50 AM 
+                                            </div>
+                                        </div>
+                                        <div class="session-details">
+                                                                                            <h4 class="title">Adventures in Browser Tooling</h4>
+                                                                                                                                        <div class="speakers">
+                                                    <i class="fa fa-microphone"></i>
+                                                                                                        <a href="https://jsremoteconf.com/speaker/christian-heilmann/">Christian Heilmann</a>
+                                                                                            </div>
+                                                                                                                                </div>
+                                    </div>
+                                                                    <div class="session-single clearfix">
+                                        <div class="time-wrap">
+                                            <div class="time">
+                                                <i class="fa fa-clock-o"></i>
+                                                11:00 AM - 11:50 AM 
+                                            </div>
+                                        </div>
+                                        <div class="session-details">
+                                                                                            <h4 class="title">Improving Website Loading Performance With Resource Hints</h4>
+                                                                                                                                        <div class="speakers">
+                                                    <i class="fa fa-microphone"></i>
+                                                                                                        <a href="https://jsremoteconf.com/speaker/dan-shappir/">Dan Shappir</a>
+                                                                                            </div>
+                                                                                                                                </div>
+                                    </div>
+                                                                    <div class="session-single clearfix">
+                                        <div class="time-wrap">
+                                            <div class="time">
+                                                <i class="fa fa-clock-o"></i>
+                                                12:30 PM - 01:20 PM 
+                                            </div>
+                                        </div>
+                                        <div class="session-details">
+                                                                                            <h4 class="title">Networking Hour</h4>
+                                                                                                                                                                            </div>
+                                    </div>
+                                                                    <div class="session-single clearfix">
+                                        <div class="time-wrap">
+                                            <div class="time">
+                                                <i class="fa fa-clock-o"></i>
+                                                01:30 PM - 02:20 PM 
+                                            </div>
+                                        </div>
+                                        <div class="session-details">
+                                                                                            <h4 class="title">API Testing w/ Postman</h4>
+                                                                                                                                        <div class="speakers">
+                                                    <i class="fa fa-microphone"></i>
+                                                                                                        <a href="https://jsremoteconf.com/speaker/mike-amundsen/">Mike Amundsen</a>
+                                                                                            </div>
+                                                                                                                                </div>
+                                    </div>
+                                                                    <div class="session-single clearfix">
+                                        <div class="time-wrap">
+                                            <div class="time">
+                                                <i class="fa fa-clock-o"></i>
+                                                02:30 PM - 03:20 PM 
+                                            </div>
+                                        </div>
+                                        <div class="session-details">
+                                                                                            <h4 class="title">The Naked Web Developer: Your Browser is Your Framework</h4>
+                                                                                                                                        <div class="speakers">
+                                                    <i class="fa fa-microphone"></i>
+                                                                                                        <a href="https://jsremoteconf.com/speaker/avichay-eyal/">Avichay Eyal</a>
+                                                                                            </div>
+                                                                                                                                </div>
+                                    </div>
+                                                                    <div class="session-single clearfix">
+                                        <div class="time-wrap">
+                                            <div class="time">
+                                                <i class="fa fa-clock-o"></i>
+                                                03:30 PM - 04:20 PM 
+                                            </div>
+                                        </div>
+                                        <div class="session-details">
+                                                                                            <h4 class="title">Kubernetes for (JS) Developers</h4>
+                                                                                                                                        <div class="speakers">
+                                                    <i class="fa fa-microphone"></i>
+                                                                                                        <a href="https://jsremoteconf.com/speaker/idowu-emehinola/">Idowu Emehinola</a>
+                                                                                            </div>
+                                                                                                                                </div>
+                                    </div>
+                                                                    <div class="session-single clearfix">
+                                        <div class="time-wrap">
+                                            <div class="time">
+                                                <i class="fa fa-clock-o"></i>
+                                                04:30 PM - 05:20 PM 
+                                            </div>
+                                        </div>
+                                        <div class="session-details">
+                                                                                            <h4 class="title">10 Ways to Improve Customer Experience</h4>
+                                                                                                                                        <div class="speakers">
+                                                    <i class="fa fa-microphone"></i>
+                                                                                                        <a href="https://jsremoteconf.com/speaker/bryan-horn/">Bryan Horn</a>
+                                                                                            </div>
+                                                                                                                                </div>
+                                    </div>
+                                                            </div>
+                                                    <div role="tabpanel" class="tab-pane fade " id="schedule-3">
+                                                                    <div class="session-single clearfix">
+                                        <div class="time-wrap">
+                                            <div class="time">
+                                                <i class="fa fa-clock-o"></i>
+                                                08:00 AM - 08:50 AM 
+                                            </div>
+                                        </div>
+                                        <div class="session-details">
+                                                                                            <h4 class="title">Demystifying Front-End Security</h4>
+                                                                                                                                        <div class="speakers">
+                                                    <i class="fa fa-microphone"></i>
+                                                                                                        <a href="https://jsremoteconf.com/speaker/ilya-verbitskiy/">Ilya Verbitskiy</a>
+                                                                                            </div>
+                                                                                                                                </div>
+                                    </div>
+                                                                    <div class="session-single clearfix">
+                                        <div class="time-wrap">
+                                            <div class="time">
+                                                <i class="fa fa-clock-o"></i>
+                                                09:00 AM - 09:50 AM 
+                                            </div>
+                                        </div>
+                                        <div class="session-details">
+                                                                                            <h4 class="title">Using Open Source Libraries As Educational Tools</h4>
+                                                                                                                                        <div class="speakers">
+                                                    <i class="fa fa-microphone"></i>
+                                                                                                        <a href="https://jsremoteconf.com/speaker/carl-mungazi/">Carl Mungazi</a>
+                                                                                            </div>
+                                                                                                                                </div>
+                                    </div>
+                                                                    <div class="session-single clearfix">
+                                        <div class="time-wrap">
+                                            <div class="time">
+                                                <i class="fa fa-clock-o"></i>
+                                                10:00 AM - 10:50 AM 
+                                            </div>
+                                        </div>
+                                        <div class="session-details">
+                                                                                            <h4 class="title">Back to the future! Where offline web apps don&#039;t exist anymore</h4>
+                                                                                                                                        <div class="speakers">
+                                                    <i class="fa fa-microphone"></i>
+                                                                                                        <a href="https://jsremoteconf.com/speaker/francesco-leardini/">Francesco Leardini</a>
+                                                                                            </div>
+                                                                                                                                </div>
+                                    </div>
+                                                                    <div class="session-single clearfix">
+                                        <div class="time-wrap">
+                                            <div class="time">
+                                                <i class="fa fa-clock-o"></i>
+                                                11:00 AM - 11:50 AM 
+                                            </div>
+                                        </div>
+                                        <div class="session-details">
+                                                                                            <h4 class="title">Selenium, Puppeteer or Playwright: How to Choose</h4>
+                                                                                                                                        <div class="speakers">
+                                                    <i class="fa fa-microphone"></i>
+                                                                                                        <a href="https://jsremoteconf.com/speaker/benjamin-gruenbaum/">Benjamin Gruenbaum</a>
+                                                                                            </div>
+                                                                                                                                </div>
+                                    </div>
+                                                                    <div class="session-single clearfix">
+                                        <div class="time-wrap">
+                                            <div class="time">
+                                                <i class="fa fa-clock-o"></i>
+                                                12:30 PM - 01:20 PM 
+                                            </div>
+                                        </div>
+                                        <div class="session-details">
+                                                                                            <h4 class="title">Networking Hour</h4>
+                                                                                                                                                                            </div>
+                                    </div>
+                                                                    <div class="session-single clearfix">
+                                        <div class="time-wrap">
+                                            <div class="time">
+                                                <i class="fa fa-clock-o"></i>
+                                                01:30 PM - 02:20 PM 
+                                            </div>
+                                        </div>
+                                        <div class="session-details">
+                                                                                            <h4 class="title">Using Compnent Data Modeling, Vuex and APIs Together in VueJS</h4>
+                                                                                                                                        <div class="speakers">
+                                                    <i class="fa fa-microphone"></i>
+                                                                                                        <a href="https://jsremoteconf.com/speaker/steve-edwards/">Steve Edwards</a>
+                                                                                            </div>
+                                                                                                                                </div>
+                                    </div>
+                                                                    <div class="session-single clearfix">
+                                        <div class="time-wrap">
+                                            <div class="time">
+                                                <i class="fa fa-clock-o"></i>
+                                                02:30 PM - 03:20 PM 
+                                            </div>
+                                        </div>
+                                        <div class="session-details">
+                                                                                            <h4 class="title">What is Serverless?</h4>
+                                                                                                                                        <div class="speakers">
+                                                    <i class="fa fa-microphone"></i>
+                                                                                                        <a href="https://jsremoteconf.com/speaker/gareth-mccumskey/">Gareth McCumskey</a>
+                                                                                            </div>
+                                                                                                                                </div>
+                                    </div>
+                                                                    <div class="session-single clearfix">
+                                        <div class="time-wrap">
+                                            <div class="time">
+                                                <i class="fa fa-clock-o"></i>
+                                                03:30 PM - 04:20 PM 
+                                            </div>
+                                        </div>
+                                        <div class="session-details">
+                                                                                            <h4 class="title">It&#039;s Not Dark Magic - Pulling Back the Curtains From Your Stylesheets</h4>
+                                                                                                                                        <div class="speakers">
+                                                    <i class="fa fa-microphone"></i>
+                                                                                                        <a href="https://jsremoteconf.com/speaker/aimee-knight/">Aimee Knight</a>
+                                                                                            </div>
+                                                                                                                                </div>
+                                    </div>
+                                                                    <div class="session-single clearfix">
+                                        <div class="time-wrap">
+                                            <div class="time">
+                                                <i class="fa fa-clock-o"></i>
+                                                04:30 PM - 05:20 PM 
+                                            </div>
+                                        </div>
+                                        <div class="session-details">
+                                                                                            <h4 class="title">Q&amp;A with Douglas Crockford</h4>
+                                                                                                                                        <div class="speakers">
+                                                    <i class="fa fa-microphone"></i>
+                                                                                                        <a href="https://jsremoteconf.com/speaker/douglas-crockford/">Douglas Crockford</a>
+                                                                                            </div>
+                                                                                                                                </div>
+                                    </div>
+                                                            </div>
+                                                </div>
+                    </div>
+                </div>
+                    </div>
+            </div>
+</section>
+<!-- section schedule end -->
+<!-- section sponsor start -->
+<section id="sponsors"  class="section-wrap section-speaker summit-section-39">
+    <div class="container">
+    		        <div class="row">
+	            <div class="col-md-12 align-center section-head">
+	            		                	<h2 class="section-title">Sponsors</h2>
+	                	<div class="title-separetor"></div>
+	                	                	                
+	            </div>
+	        </div>
+	                        <div class="row">
+                                    <div class="col-md-12 align-center">
+                        <h3 class="group-heading">Title Sponsors</h3>    
+                    </div>
+                                                    <div class="col-sm-6">
+                        <div class="img-wrap">
+                            <img src="http://jsremoteconf.com/wp-content/uploads/2020/05/your_logo_here.jpg" alt="" class="sponsor-img">
+                        </div>
+                    </div>
+                            </div>
+                    <div class="row">
+                                    <div class="col-md-12 align-center">
+                        <h3 class="group-heading">Platinum Sponsors</h3>    
+                    </div>
+                                                    <div class="col-sm-4">
+                        <div class="img-wrap">
+                            <img src="http://jsremoteconf.com/wp-content/uploads/2020/05/your_logo_here.jpg" alt="" class="sponsor-img">
+                        </div>
+                    </div>
+                            </div>
+                    <div class="row">
+                                    <div class="col-md-12 align-center">
+                        <h3 class="group-heading">Gold Sponsors</h3>    
+                    </div>
+                                                    <div class="col-sm-3">
+                        <div class="img-wrap">
+                            <img src="http://jsremoteconf.com/wp-content/uploads/2020/05/your_logo_here.jpg" alt="" class="sponsor-img">
+                        </div>
+                    </div>
+                            </div>
+                    <div class="row">
+                                    <div class="col-md-12 align-center">
+                        <h3 class="group-heading">Media Partners</h3>    
+                    </div>
+                                                    <div class="col-sm-3">
+                        <div class="img-wrap">
+                            <img src="http://jsremoteconf.com/wp-content/uploads/2020/05/your_logo_here.jpg" alt="" class="sponsor-img">
+                        </div>
+                    </div>
+                                    <div class="col-sm-3">
+                        <div class="img-wrap">
+                            <img src="http://jsremoteconf.com/wp-content/uploads/2020/05/angular-thumb-1400x1400-1.jpg" alt="" class="sponsor-img">
+                        </div>
+                    </div>
+                            </div>
+                    </div>
+</section>
+<!-- section sponsor end -->
+<!-- section speaker start -->
+<section id="speakers"  class="section-wrap section-speaker summit-section-28">
+    <div class="container">
+    		        <div class="row">
+	            <div class="col-md-12 align-center section-head">
+	            		                	<h2 class="section-title">Speakers</h2>
+	                	<div class="title-separetor"></div>
+	                	                	                
+	            </div>
+	        </div>
+	            <div class="row">
+                        
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <div class="speaker">
+                    <div class="speaker-image-wrap">
+                                                    <img width="200" height="200" src="https://jsremoteconf.com/wp-content/uploads/2020/06/crockford.jpg" class="img-responsive wp-post-image" alt="" srcset="https://jsremoteconf.com/wp-content/uploads/2020/06/crockford.jpg 200w, https://jsremoteconf.com/wp-content/uploads/2020/06/crockford-150x150.jpg 150w, https://jsremoteconf.com/wp-content/uploads/2020/06/crockford-188x188.jpg 188w" sizes="(max-width: 200px) 100vw, 200px" />                                                <div class="overlay align-center">
+                            <ul class="speaker-social">
+
+	
+
+
+
+
+														</ul>                        </div>
+                        
+                    </div>
+                    <div class="speaker-info-wrap align-center">
+                        <h4 class="name"><a href="https://jsremoteconf.com/speaker/douglas-crockford/">Douglas Crockford</a></h4>
+                        <p class="designation">Author, How JavaScript Works</p>
+                    </div>
+                </div>
+            </div>
+                        
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <div class="speaker">
+                    <div class="speaker-image-wrap">
+                                                    <img width="200" height="200" src="https://jsremoteconf.com/wp-content/uploads/2020/06/aimee_knight.jpg" class="img-responsive wp-post-image" alt="" srcset="https://jsremoteconf.com/wp-content/uploads/2020/06/aimee_knight.jpg 200w, https://jsremoteconf.com/wp-content/uploads/2020/06/aimee_knight-150x150.jpg 150w, https://jsremoteconf.com/wp-content/uploads/2020/06/aimee_knight-188x188.jpg 188w" sizes="(max-width: 200px) 100vw, 200px" />                                                <div class="overlay align-center">
+                            <ul class="speaker-social">
+
+	
+
+
+
+
+														</ul>                        </div>
+                        
+                    </div>
+                    <div class="speaker-info-wrap align-center">
+                        <h4 class="name"><a href="https://jsremoteconf.com/speaker/aimee-knight/">Aimee Knight</a></h4>
+                        <p class="designation">Software Architect</p>
+                    </div>
+                </div>
+            </div>
+                        
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <div class="speaker">
+                    <div class="speaker-image-wrap">
+                                                    <img width="200" height="200" src="https://jsremoteconf.com/wp-content/uploads/2020/06/chris-tdc.jpg" class="img-responsive wp-post-image" alt="" srcset="https://jsremoteconf.com/wp-content/uploads/2020/06/chris-tdc.jpg 200w, https://jsremoteconf.com/wp-content/uploads/2020/06/chris-tdc-150x150.jpg 150w, https://jsremoteconf.com/wp-content/uploads/2020/06/chris-tdc-188x188.jpg 188w" sizes="(max-width: 200px) 100vw, 200px" />                                                <div class="overlay align-center">
+                            <ul class="speaker-social">
+
+	
+
+
+
+
+														</ul>                        </div>
+                        
+                    </div>
+                    <div class="speaker-info-wrap align-center">
+                        <h4 class="name"><a href="https://jsremoteconf.com/speaker/christian-heilmann/">Christian Heilmann</a></h4>
+                        <p class="designation">Principal Software Development Engineer, Microsoft</p>
+                    </div>
+                </div>
+            </div>
+                        
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <div class="speaker">
+                    <div class="speaker-image-wrap">
+                                                    <img width="200" height="200" src="https://jsremoteconf.com/wp-content/uploads/2020/06/dan-shappir.jpg" class="img-responsive wp-post-image" alt="" srcset="https://jsremoteconf.com/wp-content/uploads/2020/06/dan-shappir.jpg 200w, https://jsremoteconf.com/wp-content/uploads/2020/06/dan-shappir-150x150.jpg 150w, https://jsremoteconf.com/wp-content/uploads/2020/06/dan-shappir-188x188.jpg 188w" sizes="(max-width: 200px) 100vw, 200px" />                                                <div class="overlay align-center">
+                            <ul class="speaker-social">
+
+	
+
+
+
+
+														</ul>                        </div>
+                        
+                    </div>
+                    <div class="speaker-info-wrap align-center">
+                        <h4 class="name"><a href="https://jsremoteconf.com/speaker/dan-shappir/">Dan Shappir</a></h4>
+                        <p class="designation">Performance Tech Lead at Wix</p>
+                    </div>
+                </div>
+            </div>
+                        
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <div class="speaker">
+                    <div class="speaker-image-wrap">
+                                                    <img width="200" height="200" src="https://jsremoteconf.com/wp-content/uploads/2020/06/carl-mungazi.jpg" class="img-responsive wp-post-image" alt="" srcset="https://jsremoteconf.com/wp-content/uploads/2020/06/carl-mungazi.jpg 200w, https://jsremoteconf.com/wp-content/uploads/2020/06/carl-mungazi-150x150.jpg 150w, https://jsremoteconf.com/wp-content/uploads/2020/06/carl-mungazi-188x188.jpg 188w" sizes="(max-width: 200px) 100vw, 200px" />                                                <div class="overlay align-center">
+                            <ul class="speaker-social">
+
+	
+
+
+
+
+														</ul>                        </div>
+                        
+                    </div>
+                    <div class="speaker-info-wrap align-center">
+                        <h4 class="name"><a href="https://jsremoteconf.com/speaker/carl-mungazi/">Carl Mungazi</a></h4>
+                        <p class="designation">Frontend Developer at Limejump</p>
+                    </div>
+                </div>
+            </div>
+                        
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <div class="speaker">
+                    <div class="speaker-image-wrap">
+                                                    <img width="200" height="200" src="https://jsremoteconf.com/wp-content/uploads/2020/06/gant-laborde.png" class="img-responsive wp-post-image" alt="" srcset="https://jsremoteconf.com/wp-content/uploads/2020/06/gant-laborde.png 200w, https://jsremoteconf.com/wp-content/uploads/2020/06/gant-laborde-150x150.png 150w, https://jsremoteconf.com/wp-content/uploads/2020/06/gant-laborde-188x188.png 188w" sizes="(max-width: 200px) 100vw, 200px" />                                                <div class="overlay align-center">
+                            <ul class="speaker-social">
+
+	
+
+
+
+
+														</ul>                        </div>
+                        
+                    </div>
+                    <div class="speaker-info-wrap align-center">
+                        <h4 class="name"><a href="https://jsremoteconf.com/speaker/gant-laborde/">Gant Laborde</a></h4>
+                        <p class="designation">CIO, Infinite Red</p>
+                    </div>
+                </div>
+            </div>
+                        
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <div class="speaker">
+                    <div class="speaker-image-wrap">
+                                                    <img width="200" height="200" src="https://jsremoteconf.com/wp-content/uploads/2020/06/zac-delventhal.jpg" class="img-responsive wp-post-image" alt="" srcset="https://jsremoteconf.com/wp-content/uploads/2020/06/zac-delventhal.jpg 200w, https://jsremoteconf.com/wp-content/uploads/2020/06/zac-delventhal-150x150.jpg 150w, https://jsremoteconf.com/wp-content/uploads/2020/06/zac-delventhal-188x188.jpg 188w" sizes="(max-width: 200px) 100vw, 200px" />                                                <div class="overlay align-center">
+                            <ul class="speaker-social">
+
+	
+
+
+
+
+														</ul>                        </div>
+                        
+                    </div>
+                    <div class="speaker-info-wrap align-center">
+                        <h4 class="name"><a href="https://jsremoteconf.com/speaker/zac-delventhal/">Zac Delventhal</a></h4>
+                        <p class="designation">Full Stack Developer at Unveil.Social</p>
+                    </div>
+                </div>
+            </div>
+                        
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <div class="speaker">
+                    <div class="speaker-image-wrap">
+                                                    <img width="200" height="200" src="https://jsremoteconf.com/wp-content/uploads/2020/06/adrien_trauth.png" class="img-responsive wp-post-image" alt="" srcset="https://jsremoteconf.com/wp-content/uploads/2020/06/adrien_trauth.png 200w, https://jsremoteconf.com/wp-content/uploads/2020/06/adrien_trauth-150x150.png 150w, https://jsremoteconf.com/wp-content/uploads/2020/06/adrien_trauth-188x188.png 188w" sizes="(max-width: 200px) 100vw, 200px" />                                                <div class="overlay align-center">
+                            <ul class="speaker-social">
+
+	
+
+
+
+
+														</ul>                        </div>
+                        
+                    </div>
+                    <div class="speaker-info-wrap align-center">
+                        <h4 class="name"><a href="https://jsremoteconf.com/speaker/adrien-trauth/">Adrien Trauth</a></h4>
+                        <p class="designation">Team Lead at Datadog</p>
+                    </div>
+                </div>
+            </div>
+                        
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <div class="speaker">
+                    <div class="speaker-image-wrap">
+                                                    <img width="200" height="200" src="https://jsremoteconf.com/wp-content/uploads/2020/06/james-quick.png" class="img-responsive wp-post-image" alt="" srcset="https://jsremoteconf.com/wp-content/uploads/2020/06/james-quick.png 200w, https://jsremoteconf.com/wp-content/uploads/2020/06/james-quick-150x150.png 150w, https://jsremoteconf.com/wp-content/uploads/2020/06/james-quick-188x188.png 188w" sizes="(max-width: 200px) 100vw, 200px" />                                                <div class="overlay align-center">
+                            <ul class="speaker-social">
+
+	
+
+
+
+
+														</ul>                        </div>
+                        
+                    </div>
+                    <div class="speaker-info-wrap align-center">
+                        <h4 class="name"><a href="https://jsremoteconf.com/speaker/james-q-quick/">James Q Quick</a></h4>
+                        <p class="designation">Developer Advocate, Auth0</p>
+                    </div>
+                </div>
+            </div>
+                        
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <div class="speaker">
+                    <div class="speaker-image-wrap">
+                                                    <img width="200" height="200" src="https://jsremoteconf.com/wp-content/uploads/2020/06/raymond-camden.png" class="img-responsive wp-post-image" alt="" srcset="https://jsremoteconf.com/wp-content/uploads/2020/06/raymond-camden.png 200w, https://jsremoteconf.com/wp-content/uploads/2020/06/raymond-camden-150x150.png 150w, https://jsremoteconf.com/wp-content/uploads/2020/06/raymond-camden-188x188.png 188w" sizes="(max-width: 200px) 100vw, 200px" />                                                <div class="overlay align-center">
+                            <ul class="speaker-social">
+
+	
+
+
+
+
+														</ul>                        </div>
+                        
+                    </div>
+                    <div class="speaker-info-wrap align-center">
+                        <h4 class="name"><a href="https://jsremoteconf.com/speaker/raymond-camden/">Raymond Camden</a></h4>
+                        <p class="designation">Lead Developer Evangelist</p>
+                    </div>
+                </div>
+            </div>
+                        
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <div class="speaker">
+                    <div class="speaker-image-wrap">
+                                                    <img width="200" height="200" src="https://jsremoteconf.com/wp-content/uploads/2020/06/anuradha-kumari.jpg" class="img-responsive wp-post-image" alt="" srcset="https://jsremoteconf.com/wp-content/uploads/2020/06/anuradha-kumari.jpg 200w, https://jsremoteconf.com/wp-content/uploads/2020/06/anuradha-kumari-150x150.jpg 150w, https://jsremoteconf.com/wp-content/uploads/2020/06/anuradha-kumari-188x188.jpg 188w" sizes="(max-width: 200px) 100vw, 200px" />                                                <div class="overlay align-center">
+                            <ul class="speaker-social">
+
+	
+
+
+
+
+														</ul>                        </div>
+                        
+                    </div>
+                    <div class="speaker-info-wrap align-center">
+                        <h4 class="name"><a href="https://jsremoteconf.com/speaker/anuradha-kumari/">Anuradha Kumari</a></h4>
+                        <p class="designation">JavaScript Evangelist at Mediaocean</p>
+                    </div>
+                </div>
+            </div>
+                        
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <div class="speaker">
+                    <div class="speaker-image-wrap">
+                                                    <img width="200" height="200" src="https://jsremoteconf.com/wp-content/uploads/2020/06/Ilya.jpg" class="img-responsive wp-post-image" alt="" srcset="https://jsremoteconf.com/wp-content/uploads/2020/06/Ilya.jpg 200w, https://jsremoteconf.com/wp-content/uploads/2020/06/Ilya-150x150.jpg 150w, https://jsremoteconf.com/wp-content/uploads/2020/06/Ilya-188x188.jpg 188w" sizes="(max-width: 200px) 100vw, 200px" />                                                <div class="overlay align-center">
+                            <ul class="speaker-social">
+
+	
+
+
+
+
+														</ul>                        </div>
+                        
+                    </div>
+                    <div class="speaker-info-wrap align-center">
+                        <h4 class="name"><a href="https://jsremoteconf.com/speaker/ilya-verbitskiy/">Ilya Verbitskiy</a></h4>
+                        <p class="designation">Partner at WebStoating s.r.o.</p>
+                    </div>
+                </div>
+            </div>
+                        
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <div class="speaker">
+                    <div class="speaker-image-wrap">
+                                                    <img width="200" height="200" src="https://jsremoteconf.com/wp-content/uploads/2020/06/tamas.jpg" class="img-responsive wp-post-image" alt="" srcset="https://jsremoteconf.com/wp-content/uploads/2020/06/tamas.jpg 200w, https://jsremoteconf.com/wp-content/uploads/2020/06/tamas-150x150.jpg 150w, https://jsremoteconf.com/wp-content/uploads/2020/06/tamas-188x188.jpg 188w" sizes="(max-width: 200px) 100vw, 200px" />                                                <div class="overlay align-center">
+                            <ul class="speaker-social">
+
+	
+
+
+
+
+														</ul>                        </div>
+                        
+                    </div>
+                    <div class="speaker-info-wrap align-center">
+                        <h4 class="name"><a href="https://jsremoteconf.com/speaker/tamas-piros/">Tamas Piros</a></h4>
+                        <p class="designation">Developer Evangelist at Cloudinary</p>
+                    </div>
+                </div>
+            </div>
+                        
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <div class="speaker">
+                    <div class="speaker-image-wrap">
+                                                    <img width="200" height="200" src="https://jsremoteconf.com/wp-content/uploads/2020/06/Idowu.jpg" class="img-responsive wp-post-image" alt="" srcset="https://jsremoteconf.com/wp-content/uploads/2020/06/Idowu.jpg 200w, https://jsremoteconf.com/wp-content/uploads/2020/06/Idowu-150x150.jpg 150w, https://jsremoteconf.com/wp-content/uploads/2020/06/Idowu-188x188.jpg 188w" sizes="(max-width: 200px) 100vw, 200px" />                                                <div class="overlay align-center">
+                            <ul class="speaker-social">
+
+	
+
+
+
+
+														</ul>                        </div>
+                        
+                    </div>
+                    <div class="speaker-info-wrap align-center">
+                        <h4 class="name"><a href="https://jsremoteconf.com/speaker/idowu-emehinola/">Idowu Emehinola</a></h4>
+                        <p class="designation">DevOps Engineer at Deimos</p>
+                    </div>
+                </div>
+            </div>
+                        
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <div class="speaker">
+                    <div class="speaker-image-wrap">
+                                                    <img width="200" height="200" src="https://jsremoteconf.com/wp-content/uploads/2020/06/bramus-van-damme.jpg" class="img-responsive wp-post-image" alt="" srcset="https://jsremoteconf.com/wp-content/uploads/2020/06/bramus-van-damme.jpg 200w, https://jsremoteconf.com/wp-content/uploads/2020/06/bramus-van-damme-150x150.jpg 150w, https://jsremoteconf.com/wp-content/uploads/2020/06/bramus-van-damme-188x188.jpg 188w" sizes="(max-width: 200px) 100vw, 200px" />                                                <div class="overlay align-center">
+                            <ul class="speaker-social">
+
+	
+
+
+
+
+														</ul>                        </div>
+                        
+                    </div>
+                    <div class="speaker-info-wrap align-center">
+                        <h4 class="name"><a href="https://jsremoteconf.com/speaker/bramus-van-damme/">Bramus Van Damme</a></h4>
+                        <p class="designation">Freelance Web Tinkerer</p>
+                    </div>
+                </div>
+            </div>
+                        
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <div class="speaker">
+                    <div class="speaker-image-wrap">
+                                                    <img width="200" height="200" src="https://jsremoteconf.com/wp-content/uploads/2020/06/timjung.jpg" class="img-responsive wp-post-image" alt="" srcset="https://jsremoteconf.com/wp-content/uploads/2020/06/timjung.jpg 200w, https://jsremoteconf.com/wp-content/uploads/2020/06/timjung-150x150.jpg 150w, https://jsremoteconf.com/wp-content/uploads/2020/06/timjung-188x188.jpg 188w" sizes="(max-width: 200px) 100vw, 200px" />                                                <div class="overlay align-center">
+                            <ul class="speaker-social">
+
+	
+
+
+
+
+														</ul>                        </div>
+                        
+                    </div>
+                    <div class="speaker-info-wrap align-center">
+                        <h4 class="name"><a href="https://jsremoteconf.com/speaker/tim-jung/">Tim Jung</a></h4>
+                        <p class="designation">Call of Duty Companion App at Activision Blizzard</p>
+                    </div>
+                </div>
+            </div>
+                        
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <div class="speaker">
+                    <div class="speaker-image-wrap">
+                                                    <img width="200" height="200" src="https://jsremoteconf.com/wp-content/uploads/2020/06/avichay_eyal-200.jpg" class="img-responsive wp-post-image" alt="" srcset="https://jsremoteconf.com/wp-content/uploads/2020/06/avichay_eyal-200.jpg 200w, https://jsremoteconf.com/wp-content/uploads/2020/06/avichay_eyal-200-150x150.jpg 150w, https://jsremoteconf.com/wp-content/uploads/2020/06/avichay_eyal-200-188x188.jpg 188w" sizes="(max-width: 200px) 100vw, 200px" />                                                <div class="overlay align-center">
+                            <ul class="speaker-social">
+
+	
+
+
+
+
+														</ul>                        </div>
+                        
+                    </div>
+                    <div class="speaker-info-wrap align-center">
+                        <h4 class="name"><a href="https://jsremoteconf.com/speaker/avichay-eyal/">Avichay Eyal</a></h4>
+                        <p class="designation">Software Architect</p>
+                    </div>
+                </div>
+            </div>
+                        
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <div class="speaker">
+                    <div class="speaker-image-wrap">
+                                                    <img width="200" height="200" src="https://jsremoteconf.com/wp-content/uploads/2020/06/gareth.png" class="img-responsive wp-post-image" alt="" srcset="https://jsremoteconf.com/wp-content/uploads/2020/06/gareth.png 200w, https://jsremoteconf.com/wp-content/uploads/2020/06/gareth-150x150.png 150w, https://jsremoteconf.com/wp-content/uploads/2020/06/gareth-188x188.png 188w" sizes="(max-width: 200px) 100vw, 200px" />                                                <div class="overlay align-center">
+                            <ul class="speaker-social">
+
+	
+
+
+
+
+														</ul>                        </div>
+                        
+                    </div>
+                    <div class="speaker-info-wrap align-center">
+                        <h4 class="name"><a href="https://jsremoteconf.com/speaker/gareth-mccumskey/">Gareth McCumskey</a></h4>
+                        <p class="designation">Father and husband while working serverlessly</p>
+                    </div>
+                </div>
+            </div>
+                        
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <div class="speaker">
+                    <div class="speaker-image-wrap">
+                                                    <img width="400" height="400" src="https://jsremoteconf.com/wp-content/uploads/2020/06/steve-edwards.jpg" class="img-responsive wp-post-image" alt="" srcset="https://jsremoteconf.com/wp-content/uploads/2020/06/steve-edwards.jpg 400w, https://jsremoteconf.com/wp-content/uploads/2020/06/steve-edwards-300x300.jpg 300w, https://jsremoteconf.com/wp-content/uploads/2020/06/steve-edwards-150x150.jpg 150w, https://jsremoteconf.com/wp-content/uploads/2020/06/steve-edwards-188x188.jpg 188w" sizes="(max-width: 400px) 100vw, 400px" />                                                <div class="overlay align-center">
+                            <ul class="speaker-social">
+
+	
+
+
+
+
+														</ul>                        </div>
+                        
+                    </div>
+                    <div class="speaker-info-wrap align-center">
+                        <h4 class="name"><a href="https://jsremoteconf.com/speaker/steve-edwards/">Steve Edwards</a></h4>
+                        <p class="designation">Podcast Host, JavaScript Jabber and Views on Vue</p>
+                    </div>
+                </div>
+            </div>
+                        
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <div class="speaker">
+                    <div class="speaker-image-wrap">
+                                                    <img width="201" height="200" src="https://jsremoteconf.com/wp-content/uploads/2020/06/francesco-leardini-200.jpg" class="img-responsive wp-post-image" alt="" srcset="https://jsremoteconf.com/wp-content/uploads/2020/06/francesco-leardini-200.jpg 201w, https://jsremoteconf.com/wp-content/uploads/2020/06/francesco-leardini-200-150x150.jpg 150w, https://jsremoteconf.com/wp-content/uploads/2020/06/francesco-leardini-200-188x188.jpg 188w" sizes="(max-width: 201px) 100vw, 201px" />                                                <div class="overlay align-center">
+                            <ul class="speaker-social">
+
+	
+
+
+
+
+														</ul>                        </div>
+                        
+                    </div>
+                    <div class="speaker-info-wrap align-center">
+                        <h4 class="name"><a href="https://jsremoteconf.com/speaker/francesco-leardini/">Francesco Leardini</a></h4>
+                        <p class="designation">Software Engineer and Angular trainer at Trivadis</p>
+                    </div>
+                </div>
+            </div>
+                        
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <div class="speaker">
+                    <div class="speaker-image-wrap">
+                                                    <img width="200" height="200" src="https://jsremoteconf.com/wp-content/uploads/2020/06/benjamin-gruenbaum-200.jpg" class="img-responsive wp-post-image" alt="" srcset="https://jsremoteconf.com/wp-content/uploads/2020/06/benjamin-gruenbaum-200.jpg 200w, https://jsremoteconf.com/wp-content/uploads/2020/06/benjamin-gruenbaum-200-150x150.jpg 150w, https://jsremoteconf.com/wp-content/uploads/2020/06/benjamin-gruenbaum-200-188x188.jpg 188w" sizes="(max-width: 200px) 100vw, 200px" />                                                <div class="overlay align-center">
+                            <ul class="speaker-social">
+
+	
+
+
+
+
+														</ul>                        </div>
+                        
+                    </div>
+                    <div class="speaker-info-wrap align-center">
+                        <h4 class="name"><a href="https://jsremoteconf.com/speaker/benjamin-gruenbaum/">Benjamin Gruenbaum</a></h4>
+                        <p class="designation">Node.js Core Team &amp; Lead Dev @ Testim.io</p>
+                    </div>
+                </div>
+            </div>
+                        
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <div class="speaker">
+                    <div class="speaker-image-wrap">
+                                                    <img width="200" height="200" src="https://jsremoteconf.com/wp-content/uploads/2020/06/Mike.jpg" class="img-responsive wp-post-image" alt="" srcset="https://jsremoteconf.com/wp-content/uploads/2020/06/Mike.jpg 200w, https://jsremoteconf.com/wp-content/uploads/2020/06/Mike-150x150.jpg 150w, https://jsremoteconf.com/wp-content/uploads/2020/06/Mike-188x188.jpg 188w" sizes="(max-width: 200px) 100vw, 200px" />                                                <div class="overlay align-center">
+                            <ul class="speaker-social">
+
+	
+
+
+
+
+														</ul>                        </div>
+                        
+                    </div>
+                    <div class="speaker-info-wrap align-center">
+                        <h4 class="name"><a href="https://jsremoteconf.com/speaker/mike-amundsen/">Mike Amundsen</a></h4>
+                        <p class="designation">APIs, Microservices, and Digital Transformation</p>
+                    </div>
+                </div>
+            </div>
+                        
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <div class="speaker">
+                    <div class="speaker-image-wrap">
+                                                    <img width="200" height="200" src="https://jsremoteconf.com/wp-content/uploads/2020/06/brian-horn.jpg" class="img-responsive wp-post-image" alt="" srcset="https://jsremoteconf.com/wp-content/uploads/2020/06/brian-horn.jpg 200w, https://jsremoteconf.com/wp-content/uploads/2020/06/brian-horn-150x150.jpg 150w, https://jsremoteconf.com/wp-content/uploads/2020/06/brian-horn-188x188.jpg 188w" sizes="(max-width: 200px) 100vw, 200px" />                                                <div class="overlay align-center">
+                            <ul class="speaker-social">
+
+	
+
+
+
+
+														</ul>                        </div>
+                        
+                    </div>
+                    <div class="speaker-info-wrap align-center">
+                        <h4 class="name"><a href="https://jsremoteconf.com/speaker/bryan-horn/">Bryan Horn</a></h4>
+                        <p class="designation">Customer Experience Expert</p>
+                    </div>
+                </div>
+            </div>
+                        
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <div class="speaker">
+                    <div class="speaker-image-wrap">
+                                                    <img width="200" height="200" src="https://jsremoteconf.com/wp-content/uploads/2020/06/MarkHasara3.jpg" class="img-responsive wp-post-image" alt="" srcset="https://jsremoteconf.com/wp-content/uploads/2020/06/MarkHasara3.jpg 200w, https://jsremoteconf.com/wp-content/uploads/2020/06/MarkHasara3-150x150.jpg 150w, https://jsremoteconf.com/wp-content/uploads/2020/06/MarkHasara3-188x188.jpg 188w" sizes="(max-width: 200px) 100vw, 200px" />                                                <div class="overlay align-center">
+                            <ul class="speaker-social">
+
+	
+
+
+
+
+														</ul>                        </div>
+                        
+                    </div>
+                    <div class="speaker-info-wrap align-center">
+                        <h4 class="name"><a href="https://jsremoteconf.com/speaker/mark-hasara/">Mark Hasara</a></h4>
+                        <p class="designation">Former Air Force Pilot, Career Coach</p>
+                    </div>
+                </div>
+            </div>
+                    </div>
+    </div>
+</section>
+<!-- section speaker end -->
+<!-- section pricing start -->
+<section id="pricing"  class="section-wrap light-gray-bg summit-section-61">
+    <div class="container">
+    		        <div class="row">
+	            <div class="col-md-12 align-center section-head">
+	            		                	<h2 class="section-title">Pricing</h2>
+	                	<div class="title-separetor"></div>
+	                	                	                
+	            </div>
+	        </div>
+	            <div class="row">
+                            <div class=" col-sm-6 col-md-4">
+                    <div class="pricing-wrap align-center featured">
+                        <div class="pricing-head">
+                            <div class="price">57<span>/ head</span></div>
+                        </div>
+                                                    <div class="h3 pricing-title">Video Only</div>
+                                                                        <div class="feature-wrap">
+                            <ul>
+                                                                    <li>Talk Recordings from all 24 Talks</li>
+                                                                    <li></li>
+                                                            </ul>
+                        </div>
+                                                                        <div class="footer">
+                                <a href="https://jsremoteconf.com/register/video-only-access/" class="btn btn-primary">Buy Now</a>
+                            </div>
+                                            </div>
+                </div>
+                    </div>
+    </div>
+</section>
+<!-- section pricing end -->
+<!-- section testimonial start -->
+<section id="testimonials"  class="section-wrap overlay summit-section-32">
+    <div class="container">
+    		        <div class="row">
+	            <div class="col-md-12 align-center section-head">
+	            		                	<h2 class="section-title">What They Say</h2>
+	                	<div class="title-separetor"></div>
+	                	                	                
+	            </div>
+	        </div>
+	            <div class="row">
+                            <div class="owl-carousel testimonial-wrap">
+                    
+                        <div class="col-md-12">
+                            <div class="single-testimonial">
+                                <div class="wrap-inner">
+                                    <div class="testimonial-content">
+                                        I attended the JavaScript Remote Conf. What I really like about the remote conf series in general is the surprising fact that no matter how many people were in attendance, every single person could easily ask questions, strike conversations up, and feel connected to the speakers.                                    </div>
+                                    <h4 class="title">Erik Isaksen</h4>
+                                    <div class="job"></div>
+                                                                            <img class="photo" src="https://jsremoteconf.com/wp-content/uploads/2020/05/erikisaksen-150x150.png" alt="Erik Isaksen">
+                                                                    </div>
+                            </div>
+                        </div>
+                                    </div>
+                    </div>
+    </div>
+</section>
+<!-- section testimonial end -->
+<!-- section blog start -->
+<section id="created-by"  class="section-wrap summit-section-34 light-gray-bg">
+    <div class="container">
+    		        <div class="row">
+	            <div class="col-md-12 align-center section-head">
+	            		                	<h2 class="section-title">By the Team Behind Adventures in Angular</h2>
+	                	<div class="title-separetor"></div>
+	                	                	            </div>
+	        </div>
+	            <div class="row">
+                            <div class="col-md-5 first-block">
+                                        <h2>You Know Us</h2>
+                                                            <h4>Produced by the team behind Adventures in Angular</h4>
+                                                            <p>This conference is produced by the team behind the Adventures in Angular podcast. Come hear from your favorite guests, hosts, and Angular development experts in this online conference and interact with them at our networking sessions.</p>
+<p>Whether you want to know the history behind Angular, learn new tools, techniques, or technology, or keep current on the state of the technology world, we're here for you every week.</p>
+                                                            <a href="https://iphreaksshow.com" class="btn btn-default">
+                        Check Out the Podcast                    </a>
+                                    </div>
+                <div class="col-md-7 align-right pull-right">
+                                        <img src="http://jsremoteconf.com/wp-content/uploads/2020/05/angular-thumb-1400x1400-1.jpg" class="responsive-image" alt="">
+                                    </div>
+                    </div>
+    </div>
+</section>
+<!-- section blog end -->
+<!-- section blog start -->
+<section id="contact"  class="section-wrap summit-section-43">
+    <div class="container">
+    		        <div class="row">
+	            <div class="col-md-12 align-center section-head">
+	            		                	<h2 class="section-title">Contact Us</h2>
+	                	<div class="title-separetor"></div>
+	                	                	            </div>
+	        </div>
+	            <div class="row">
+            <div role="form" class="wpcf7" id="wpcf7-f9-o1" lang="en-US" dir="ltr">
+<div class="screen-reader-response" role="alert" aria-live="polite"></div>
+<form action="/#wpcf7-f9-o1" method="post" class="wpcf7-form init" novalidate="novalidate">
+<div style="display: none;">
+<input type="hidden" name="_wpcf7" value="9" />
+<input type="hidden" name="_wpcf7_version" value="5.2" />
+<input type="hidden" name="_wpcf7_locale" value="en_US" />
+<input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f9-o1" />
+<input type="hidden" name="_wpcf7_container_post" value="0" />
+<input type="hidden" name="_wpcf7_posted_data_hash" value="" />
+<input type="hidden" name="_wpcf7_recaptcha_response" value="" />
+</div>
+<div class="clearfix">
+<div class="col-md-6">
+<span class="wpcf7-form-control-wrap your-name"><input type="text" name="your-name" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required form-control" aria-required="true" aria-invalid="false" placeholder="Name ( required )" /></span> <span class="wpcf7-form-control-wrap your-email"><input type="email" name="your-email" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email form-control" aria-required="true" aria-invalid="false" placeholder="Email( required )" /></span><span class="wpcf7-form-control-wrap your-subject"><input type="text" name="your-subject" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required form-control" aria-required="true" aria-invalid="false" placeholder="Subject" /></span>
+</div>
+<div class="col-md-6">
+<span class="wpcf7-form-control-wrap your-message"><textarea name="your-message" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea form-control" aria-invalid="false" placeholder="Message"></textarea></span> <input type="submit" value="Submit" class="wpcf7-form-control wpcf7-submit btn btn-default btn-block" />
+</div>
+</div>
+<div class="wpcf7-response-output" role="alert" aria-hidden="true"></div></form></div>        </div>
+    </div>
+</section>
+<!-- section blog end -->
+	<footer class="main-footer">
+                <div class="footer-lower">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 align-center">
+                        <!-- start social links -->
+<div class="social-links-wrap">
+	<ul class="social-links">
+		<li><a href="https://facebook.com/devchattv"><i class="fa fa-facebook"></i></a></li><li><a href="https://twitter.com/reactnativeconf"><i class="fa fa-twitter"></i></a></li>	</ul>
+</div>                        <div class="copyright-wrap">
+                            Intentional Excellence Productions, LLC                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <a href="#" id="back-to-top"><i class="fa fa-angle-up"></i></a>
+	
+<div id='custom-style' class='hidden'>
+.summit-section-21 {background-image: url(http://jsremoteconf.com/wp-content/uploads/2020/04/work_in_pjs-background.jpg);background-size: cover;background-position: center;}
+</div>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wpcf7 = {"apiSettings":{"root":"https:\/\/jsremoteconf.com\/wp-json\/contact-form-7\/v1","namespace":"contact-form-7\/v1"}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://jsremoteconf.com/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=5.2'></script>
+<script type='text/javascript' src='https://www.google.com/recaptcha/api.js?render=6LeV2q4ZAAAAAAI4x6FWouxhlrfDfH6H-4NX2HCy&#038;ver=3.0'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wpcf7_recaptcha = {"sitekey":"6LeV2q4ZAAAAAAI4x6FWouxhlrfDfH6H-4NX2HCy","actions":{"homepage":"homepage","contactform":"contactform"}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://jsremoteconf.com/wp-content/plugins/contact-form-7/modules/recaptcha/script.js?ver=5.2'></script>
+<script type='text/javascript' src='https://jsremoteconf.com/wp-content/themes/summit/js/jquery.fitvids.js?ver=5.4.2'></script>
+<script type='text/javascript' src='https://jsremoteconf.com/wp-content/themes/summit/js/bootstrap.min.js?ver=5.4.2'></script>
+<script type='text/javascript' src='https://jsremoteconf.com/wp-content/themes/summit/js/jquery.countdown.min.js?ver=5.4.2'></script>
+<script type='text/javascript' src='https://jsremoteconf.com/wp-content/themes/summit/js/jquery.flexslider-min.js?ver=5.4.2'></script>
+<script type='text/javascript' src='https://jsremoteconf.com/wp-content/themes/summit/js/jquery.magnific-popup.min.js?ver=5.4.2'></script>
+<script type='text/javascript' src='https://jsremoteconf.com/wp-content/themes/summit/js/highlight.pack.js?ver=5.4.2'></script>
+<script type='text/javascript' src='https://jsremoteconf.com/wp-content/themes/summit/js/owl.carousel.min.js?ver=5.4.2'></script>
+<script type='text/javascript' src='https://jsremoteconf.com/wp-content/themes/summit/js/jquery.nav.js?ver=5.4.2'></script>
+<script type='text/javascript' src='//platform.twitter.com/widgets.js?ver=5.4.2'></script>
+<script type='text/javascript' src='https://jsremoteconf.com/wp-content/themes/summit/js/main.js?ver=5.4.2'></script>
+<script type='text/javascript' src='https://jsremoteconf.com/wp-includes/js/wp-embed.min.js?ver=5.4.2'></script>
+	</body>
+</html>
